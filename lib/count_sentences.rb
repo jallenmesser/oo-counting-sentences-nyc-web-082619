@@ -15,11 +15,7 @@ class String
   end
 
   def count_sentences
-    
     array = self.split
-    sentence_total = array.each.sentence?
-    question_total = array.each.question?
-    exclamation_total = array.each.exclamation?
-    total = sentence_total + question_total + exclamation_total
+    array.end_with?(".","?","!")
   end
 end
