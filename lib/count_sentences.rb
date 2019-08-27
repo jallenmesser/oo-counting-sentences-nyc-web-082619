@@ -17,9 +17,6 @@ class String
   def count_sentences
     
     self.split.count {|msg| sentence? || question? || exclamation?}
-    #sentence_total = array.each.sentence?
-    #question_total = array.each.question?
-    #exclamation_total = array.each.exclamation?
-    #total = sentence_total + question_total + exclamation_total
+    
   end
 end
