@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     binding.pry
-    self.split.count {|msg| sentence? || question? || exclamation?}
+    self.split.count {|msg| msg.sentence? || msg.question? || msg.exclamation?}
     
   end
 end
