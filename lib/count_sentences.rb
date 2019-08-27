@@ -15,8 +15,8 @@ class String
   end
 
   def count_sentences
-    #binding.pry
-    array = self.split
-    array.question?
+    binding.pry
+    self.split
+    self.sentence?
   end
 end
